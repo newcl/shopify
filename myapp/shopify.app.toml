@@ -1,0 +1,37 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "71a07197aa63ea133f7a86cc96d9da55"
+application_url = "https://fishing-particularly-compressed-swiss.trycloudflare.com"
+embedded = true
+name = "myapp"
+handle = "myapp-1115"
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "elladalime.myshopify.com"
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2025-01"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/scopes_update" ]
+  uri = "/webhooks/app/scopes_update"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://fishing-particularly-compressed-swiss.trycloudflare.com/auth/callback",
+  "https://fishing-particularly-compressed-swiss.trycloudflare.com/auth/shopify/callback",
+  "https://fishing-particularly-compressed-swiss.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
