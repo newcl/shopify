@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "71a07197aa63ea133f7a86cc96d9da55"
-application_url = "https://fishing-particularly-compressed-swiss.trycloudflare.com"
+application_url = "https://argue-leaving-fantastic-twin.trycloudflare.com"
 embedded = true
 name = "myapp"
 handle = "myapp-1115"
@@ -24,13 +24,14 @@ api_version = "2025-01"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,write_script_tags"
 
 [auth]
 redirect_urls = [
-  "https://fishing-particularly-compressed-swiss.trycloudflare.com/auth/callback",
-  "https://fishing-particularly-compressed-swiss.trycloudflare.com/auth/shopify/callback",
-  "https://fishing-particularly-compressed-swiss.trycloudflare.com/api/auth/callback"
+  "https://argue-leaving-fantastic-twin.trycloudflare.com/auth/callback",
+  "https://argue-leaving-fantastic-twin.trycloudflare.com/auth/shopify/callback",
+  "https://argue-leaving-fantastic-twin.trycloudflare.com/api/auth/callback",
+  "https://argue-leaving-fantastic-twin.trycloudflare.com/myauthcallback",
 ]
 
 [pos]
