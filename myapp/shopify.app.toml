@@ -30,7 +30,8 @@ scopes = "write_products,write_script_tags"
 redirect_urls = [
   "https://cottages-expense-puerto-conviction.trycloudflare.com/auth/callback",
   "https://cottages-expense-puerto-conviction.trycloudflare.com/auth/shopify/callback",
-  "https://cottages-expense-puerto-conviction.trycloudflare.com/api/auth/callback"
+  "https://cottages-expense-puerto-conviction.trycloudflare.com/api/auth/callback",
+  "https://cottages-expense-puerto-conviction.trycloudflare.com/myauthcallback",
 ]
 
 [pos]

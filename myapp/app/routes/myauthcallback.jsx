@@ -18,7 +18,7 @@ async function createScriptTag(shop, accessToken) {
   const scriptTagData = {
     script_tag: {
       event: "onload",
-      src: "https://mycdn.com/my-app.js", // Your externally hosted app URL
+      src: "https://newcl.github.io/shopify/main.js", // Your externally hosted app URL
     },
   };
 

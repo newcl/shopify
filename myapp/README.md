@@ -362,4 +362,4 @@ This template uses [Remix](https://remix.run). The following Shopify tools are a
 - [Getting started with internationalizing your app](https://shopify.dev/docs/apps/best-practices/internationalization/getting-started)
 
 
-https://argue-leaving-fantastic-twin.trycloudflare.com/install?shop=elladalime.myshopify.com
+https://cottages-expense-puerto-conviction.trycloudflare.com/install?shop=elladalime.myshopify.com
