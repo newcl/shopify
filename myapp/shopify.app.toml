@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "71a07197aa63ea133f7a86cc96d9da55"
-application_url = "https://argue-leaving-fantastic-twin.trycloudflare.com"
+application_url = "https://cottages-expense-puerto-conviction.trycloudflare.com"
 embedded = true
 name = "myapp"
 handle = "myapp-1115"
@@ -28,10 +28,9 @@ scopes = "write_products,write_script_tags"
 
 [auth]
 redirect_urls = [
-  "https://argue-leaving-fantastic-twin.trycloudflare.com/auth/callback",
-  "https://argue-leaving-fantastic-twin.trycloudflare.com/auth/shopify/callback",
-  "https://argue-leaving-fantastic-twin.trycloudflare.com/api/auth/callback",
-  "https://argue-leaving-fantastic-twin.trycloudflare.com/myauthcallback",
+  "https://cottages-expense-puerto-conviction.trycloudflare.com/auth/callback",
+  "https://cottages-expense-puerto-conviction.trycloudflare.com/auth/shopify/callback",
+  "https://cottages-expense-puerto-conviction.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
